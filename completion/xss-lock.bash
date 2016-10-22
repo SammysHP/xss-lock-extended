@@ -19,7 +19,7 @@ _xss-lock() {
     if [[ $cur == -* ]]; then
         COMPREPLY=( $(compgen -W '-n --notifier -l --transfer-sleep-lock \
                                   --ignore-sleep -q --quiet -v --verbose \
-                                  --version -h --help' -- $cur) )
+                                  --ignore-blank --version -h --help' -- $cur) )
     fi
 }
 

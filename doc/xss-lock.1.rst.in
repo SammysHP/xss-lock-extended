@@ -68,6 +68,8 @@ Options
 
 --ignore-sleep  Do not lock on suspend/hibernate.
 
+--ignore-blank  Do not lock on screensaver events.
+
 -q, --quiet     Output only fatal errors.
 
 -v, --verbose   Output more messages.
