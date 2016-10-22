@@ -1,0 +1,6 @@
+pkg/
+src/
+xss-lock-extended-git/
+*.tar.xz
+*.tar.gz
+*.zip
